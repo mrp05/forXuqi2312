@@ -1,0 +1,147 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(143, 117, 128);
+  text-align: center;
+}
+.laThu {
+  width: 200px;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px 5px #333;
+  margin: 0 20px;
+  text-decoration: none;
+}
+#laThu {
+  cursor: pointer;
+}
+.goiQua {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px 5px #333;
+  margin: 0 20px;
+}
+.doanFilm {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px 5px #333;
+  margin: 0 20px;
+}
+.loichuc {
+  color: rgb(228, 235, 241);
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* font-size: 30px !important; */
+  font-weight: 400;
+}
+.anhloichuc {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 5px #333;
+  /* filter: brightness(50%); */
+}
+.hide {
+  display: none !important;
+}
+.ghichu {
+  color: rgb(218, 236, 248);
+  font-size: 20px;
+  margin-top: 0px;
+}
+.content-thu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnClose {
+  width: 15% !important;
+  height: 3% !important;
+  border-radius: 5px;
+  background-color: rgb(70, 87, 245);
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  .laThu {
+    width: 80%;
+    height: 75% !important;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 5px #333;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+  .goiQua {
+    width: 80%;
+    height: 75% !important;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 5px #333;
+    margin: 0 20px;
+  }
+  .doanFilm {
+    width: 80%;
+    height: 75% !important;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 5px #333;
+    margin: 0 20px;
+  }
+  .loichuc {
+    color: rgb(228, 235, 241);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .btnClose {
+    width: 15% !important;
+    height: 7% !important;
+    border-radius: 20px;
+    background-color: rgb(70, 87, 245);
+    color: white;
+    font-size: auto;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .btnClose {
+    margin-top: 70px;
+  }
+  .loichuc {
+    font-size: 50px;
+  }
+  .btnClose {
+    width: 15% !important;
+    height: 7% !important;
+  }
+}
