@@ -1,8 +1,9 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: rgb(143, 117, 128);
   text-align: center;
+  background-image: url("./dai-ngan-ha.jpg");
+  color: white;
 }
 .laThu {
   width: 200px;
